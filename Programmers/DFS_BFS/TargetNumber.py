@@ -1,3 +1,7 @@
+"""
+First solve : 2020-12-21
+"""
+
 def solution(numbers, target):
     length = len(numbers)
     answer = dfs(numbers, target, 0, 0, length)
@@ -19,13 +23,10 @@ def dfs(nums, tar, val, cnt, length):
 
 
 if __name__ == '__main__':
-    numbers = [1,1,1,1,1]
+    numbers = [1, 1, 1, 1, 1]
     target = 3
     answer = 5
 
     sol = solution(numbers, target)
 
-    """
-    First solve : 2020-12-21
 
-    """
