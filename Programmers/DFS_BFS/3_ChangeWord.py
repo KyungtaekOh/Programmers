@@ -1,7 +1,6 @@
 """
 First solve : 2020-12-28
 """
-
 from collections import defaultdict
 
 def solution(begin, target, words):
@@ -38,7 +37,6 @@ def solution(begin, target, words):
             for j in range(q_len):
                 find = queue.pop(0)
                 visited.add(find)
-                # 각 레벨의 단어를 찾는다
                 line = list(mydict[find])
                 for i in line:
                     if not (i in visited):
