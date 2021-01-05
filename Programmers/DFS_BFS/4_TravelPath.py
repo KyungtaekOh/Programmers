@@ -10,11 +10,10 @@ def solution(tickets):
     ### Make Dictionary
     for i, j in sticket:
         mydict[i].append(j)
-    print('hello', mydict)
 
     ### DFS
-    def dfs(node, mdict, depth, target, ans):
-        if(depth == target) :
+    def dfs(node, mdict, depth, ans):
+        if(depth == length) :
             ans[-1] = node
             return ans
         line = mdict[node]
@@ -23,13 +22,15 @@ def solution(tickets):
         for i in line:
             temp = deepcopy(mdict)
             temp[node].remove(i)
-            res = dfs(i, temp, depth+1, target, ans)
+            res = dfs(i, temp, depth+1, ans)
             if not (res == False) : return ans
+        return False
 
-    return dfs('ICN', mydict, 1, length, answer)
+    return dfs('ICN', mydict, 1, answer)
 
 if __name__ == '__main__':
-    n = [['ICN', 'A'], ['A', 'C'], ['A', 'D'], ['D', 'B'], ['B', 'A']]
+    n = [["ICN","C"],["ICN","B"],["C","ICN"],["B","D"]]
+    # n = [['ICN', 'A'], ['A', 'C'], ['A', 'D'], ['D', 'B'], ['B', 'A']]
     # tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "SFO"], ["ATL", "ICN"]]
     # tickets = 	[["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
 
