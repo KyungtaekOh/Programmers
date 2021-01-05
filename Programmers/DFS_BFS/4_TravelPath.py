@@ -1,3 +1,6 @@
+"""
+Frist solve : 2021-01-05
+"""
 from collections import defaultdict
 from copy import deepcopy
 
@@ -7,17 +10,17 @@ def solution(tickets):
     sticket = sorted(tickets, key=lambda k: (k[0], k[1]))
 
     mydict = defaultdict(list)
-    ### Make Dictionary
+    # Make Dictionary
     for i, j in sticket:
         mydict[i].append(j)
 
-    ### DFS
+    # DFS
     def dfs(node, mdict, depth, ans):
-        if(depth == length) :
+        if(depth == length):
             ans[-1] = node
             return ans
-        line = mdict[node]
         ans[depth-1] = node
+        line = mdict[node]
         if(len(line) == 0) : return False
         for i in line:
             temp = deepcopy(mdict)
@@ -29,10 +32,8 @@ def solution(tickets):
     return dfs('ICN', mydict, 1, answer)
 
 if __name__ == '__main__':
-    n = [["ICN","C"],["ICN","B"],["C","ICN"],["B","D"]]
-    # n = [['ICN', 'A'], ['A', 'C'], ['A', 'D'], ['D', 'B'], ['B', 'A']]
-    # tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "SFO"], ["ATL", "ICN"]]
-    # tickets = 	[["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]
+    lastCase = [["ICN","C"],["ICN","B"],["C","ICN"],["B","D"]]
+    tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "SFO"], ["ATL", "ICN"]]
 
-    result = solution(n)
+    result = solution(lastCase)
     print(result)
