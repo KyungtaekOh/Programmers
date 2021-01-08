@@ -1,12 +1,24 @@
+"""
+First solve : 2021-01-08
+"""
 def solution(n, edge):
-    """
-    DFS in Graph?
-    """
-
-
     answer = 0
-    return answer
+    mydict = [[] for i in range(n)]
+    for i, j in edge:
+        mydict[i - 1].append(j)
+        mydict[j - 1].append(i)
+    queue = [1]
+    visited = [1] + [0 for i in range(n - 1)]
 
+    while (queue):
+        answer = len(queue)
+        for i in range(answer):
+            node = queue.pop(0)
+            for a in mydict[node - 1]:
+                if visited[a - 1] == 0:
+                    queue.append(a)
+                    visited[a - 1] = 1
+    return answer
 
 
 if __name__ == '__main__':
@@ -15,4 +27,4 @@ if __name__ == '__main__':
 
     result = solution(n, vertex)
     print(result)
-    # Expect : 	3
+    # Expect : 3
