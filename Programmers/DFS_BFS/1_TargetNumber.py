@@ -1,7 +1,6 @@
 """
 First solve : 2020-12-21
     - target을 줄이는 방식으로해도 가능할것 같다.
-
 """
 
 def solution(numbers, target):
