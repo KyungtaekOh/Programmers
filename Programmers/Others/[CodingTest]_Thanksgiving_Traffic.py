@@ -14,6 +14,8 @@ def solution(lines):
         for s, e in history:
             if e >= start and s <= end:
                 count += 1
+            # if (start <= s and s <= end) or (start <= e and e <= end):
+            #     count += 1
         return count
 
     for st, et in history:
