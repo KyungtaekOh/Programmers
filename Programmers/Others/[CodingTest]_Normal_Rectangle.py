@@ -3,7 +3,7 @@ def solution(w,h):
     if w == 1 or h == 1:
         return 0
     gcd = math.gcd(w, h)
-    mw, mh = w / gcd, h / gcd # 2, 3
+    mw, mh = w / gcd, h / gcd
     num_box, prev = 0, 0
     for idx in range(1, int(mw)+1):
         curr = mh / mw * idx
