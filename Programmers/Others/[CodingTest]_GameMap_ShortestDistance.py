@@ -2,6 +2,7 @@ from collections import deque
 def solution(maps):
     n, m = len(maps), len(maps[0])
     queue = deque([(0, 0, 1)])
+    maps[0][0] = 0
     while True:
         if len(queue) == 0:
             return -1
@@ -16,6 +17,9 @@ def solution(maps):
                 maps[nx][ny] = 0
                 queue.append((nx, ny, curr[2]+1))
 
+if __name__ == '__main__':
+    maps = [[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]
+    print(solution(maps))
 """
 Test case
     maps                answer
