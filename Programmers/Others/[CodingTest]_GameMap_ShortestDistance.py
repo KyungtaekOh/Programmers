@@ -17,9 +17,6 @@ def solution(maps):
                 maps[nx][ny] = 0
                 queue.append((nx, ny, curr[2]+1))
 
-if __name__ == '__main__':
-    maps = [[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]
-    print(solution(maps))
 """
 Test case
     maps                answer
