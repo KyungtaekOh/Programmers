@@ -13,7 +13,7 @@ def solution(n, results):
         win[w].append(l)
         lose[l].append(w)
 
-    def bfs(now, find=1, visited=set()):
+    def dfs(now, find=1, visited=set()):
         w = []
 
         if (find == 1):temp = win[now]
@@ -23,7 +23,7 @@ def solution(n, results):
         else: visited.add(now)
 
         for i in temp:
-            w += bfs(i, find, visited)
+            w += dfs(i, find, visited)
         w += temp
         w = list(set(w))
         for i in w:
@@ -32,11 +32,32 @@ def solution(n, results):
 
     for i in range(1, n+1):
         nset = set()
-        bfs(i, 1, nset)
+        dfs(i, 1, nset)
         nset.clear()
-        bfs(i, 2, nset)
+        dfs(i, 2, nset)
         if(score[i-1].count(0) == 1):
             answer += 1
+    return answer
+
+"""
+Another way to solve the problem
+"""
+from collections import defaultdict
+def solution(n, results):
+    answer = 0
+    win, lose = defaultdict(set), defaultdict(set)
+    for result in results:
+            lose[result[1]].add(result[0])
+            win[result[0]].add(result[1])
+
+    for i in range(1, n + 1):
+        for winner in lose[i]:
+            win[winner].update(win[i])
+        for loser in win[i]:
+            lose[loser].update(lose[i])
+
+    for i in range(1, n+1):
+        if len(win[i]) + len(lose[i]) == n - 1: answer += 1
     return answer
 
 if __name__ == '__main__':
