@@ -5,8 +5,8 @@ def solution(n, t, m, timetable):
     table = sorted(timetable)
     mydict = [[540 + i * t, int(m), 0] for i in range(n)]
     tidx, didx = 0, 0
-    while didx < n:
-        if tidx == len(table):
+    while True:
+        if tidx == len(table) or didx == n:
             break
         if mydict[didx][1] > 0 and table[tidx] <= mydict[didx][0]:
             mydict[didx][2] = table[tidx]
