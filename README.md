@@ -17,7 +17,7 @@
 * [Level 2] 2018 공채 : [3차] 파일명 정렬 - Python
 * [Level 2] 2018 공채 : [3차] n진수 게임 - Python
 * [Level 3] 2018 공채 : [1차] 추석 트래픽 - Python
-* [Level 3] 2020 공채 : [1차] 셔틀버스 - Python
+* [Level 3] 2018 공채 : [1차] 셔틀버스 - Python
 #### 2019
 * [Level 2] 2019 공채 : 오픈채팅방 - Python
 * [Level 2] 2019 인턴십 : 튜플 - Python
