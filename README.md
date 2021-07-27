@@ -72,3 +72,4 @@
 
 ## 2017 팁스타운
 * [Level 2] 짝지어 제거하기 - Python
+* [Level 2] 예상 대진표 - Python
