@@ -44,6 +44,7 @@
 * [Level 2] 2021 공채 : 순위 검색 - Python
 * [Level 2] 2021 인턴십 : 거리두기 확인하기 - Python
 * [Level 3] 2021 공채 : 합승 택시 요금 - Python
+* [Level 3] 2021 공채 : 광고 삽입 - Python
 * [Level 3] 2021 인턴십 : 표 편집 - Python
 
 ## Summer/Winter Coding
