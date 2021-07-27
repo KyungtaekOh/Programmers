@@ -20,11 +20,11 @@ def solution(play_time, adv_time, logs):
 
     accum = sum(playlist[:advtime])
     candi, time = accum, 0          # 재생시간이 가장 많은 구간 탐색
-    for remove, add in zip(range(playtime-advtime), range(advtime,playtime)):
-        accum = accum-playlist[remove]+playlist[add]
+    for minus, plus in zip(range(playtime-advtime), range(advtime,playtime)):
+        accum = accum-playlist[minus]+playlist[plus]
         if candi < accum:
             candi = accum
-            time = remove+1
+            time = minus+1
     m, s = divmod(time, 60)
     h, m = divmod(m, 60)
     return '%02d:%02d:%02d'%(h, m, s)
