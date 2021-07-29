@@ -6,14 +6,14 @@ def solution(arr):
 
         if count == 0:                  # 모두 0일 경우
             return [1, 0]
-        elif count == (r2-r1)*(r2-r1):  # 모두 1일 경우
+        elif count == (r2-r1) * (r2-r1):  # 모두 1일 경우
             return [0, 1]
         else:                           # 섞여 있을 경우
             result = [0, 0]
             hl = (r2-r1) // 2
             for dx, dy in [(0, 0), (0, hl), (hl, 0), (hl, hl)]:
                 nr1, nc1 = r1 + dx, c1 + dy
-                nr2, nc2 = (r1+r2)//2 + dx, (c1+c2)//2 + dy
+                nr2, nc2 = (r1 + r2)//2 + dx, (c1 + c2)//2 + dy
                 temp = find(nr1, nc1, nr2, nc2)
                 for i in range(2):
                     result[i] += temp[i]
