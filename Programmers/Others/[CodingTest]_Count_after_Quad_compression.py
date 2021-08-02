@@ -1,14 +1,14 @@
 def solution(arr):
     def find(r1, c1, r2, c2):
         count = 0
-        for line in arr[r1:r2]:         # 범위내 모든 값 sum
+        for line in arr[r1:r2]:             # 범위내 모든 값 sum
             count += sum(line[c1:c2])
 
-        if count == 0:                  # 모두 0일 경우
+        if count == 0:                      # 모두 0일 경우
             return [1, 0]
-        elif count == (r2-r1) * (r2-r1):  # 모두 1일 경우
+        elif count == (r2-r1) * (r2-r1):    # 모두 1일 경우
             return [0, 1]
-        else:                           # 섞여 있을 경우
+        else:                               # 섞여 있을 경우
             result = [0, 0]
             hl = (r2-r1) // 2
             for dx, dy in [(0, 0), (0, hl), (hl, 0), (hl, hl)]:
