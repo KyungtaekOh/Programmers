@@ -76,3 +76,7 @@
 ## 2017 팁스타운
 * [Level 2] 짝지어 제거하기 - Python
 * [Level 2] 예상 대진표 - Python
+
+
+## 위클리 챌린지
+* [Level 1] 1주차 - Python
