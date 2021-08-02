@@ -61,6 +61,7 @@
 * [Level 2] 시즌 1 : 삼각 달팽이 - Python
 * [Level 2] 시즌 1 : 이진 변환 반복하기 - Python
 * [Level 2] 시즌 1 : 쿼드압축 후 개수 세기 - Python
+* [Level 3] 시즌 1 : 풍선 터트리기 - Python
 * [Level 2] 시즌 2 : 괄호 회전하기 - Python
 * [Level 2] 시즌 2 : 2개 이하로 다른 비트 - Python
 
