@@ -20,7 +20,6 @@
 * [Level 3] 2018 공채 : [1차] 셔틀버스 - Python
 #### 2019
 * [Level 2] 2019 공채 : 오픈채팅방 - Python
-
 * [Level 2] 2019 공채 : 후보키 - Python
 * [Level 3] 2019 공채 : 길 찾기 게임 - Python
 * [Level 3] 2019 공채 : 매칭 점수 - Python
