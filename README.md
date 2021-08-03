@@ -56,6 +56,7 @@
 * [Level 2] ~2018 : 방문 길이 - Python
 * [Level 2] ~2018 : 숫자 게임 - Python
 * [Level 3] ~2018 : 기지국 설치 - Python
+* [Level 3] ~2018 : 스티커 모으기(2) - Python
 * [Level 2] 2019 : 멀쩡한 사각형 - Python
 
 ## 월간 코드 챌린지
