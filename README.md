@@ -55,6 +55,7 @@
 * [Level 2] ~2018 : 스킬트리 - Python
 * [Level 2] ~2018 : 방문 길이 - Python
 * [Level 2] ~2018 : 숫자 게임 - Python
+* [Level 3] ~2018 : 기지국 설치 - Python
 * [Level 2] 2019 : 멀쩡한 사각형 - Python
 
 ## 월간 코드 챌린지
@@ -76,7 +77,6 @@
 ## 2017 팁스타운
 * [Level 2] 짝지어 제거하기 - Python
 * [Level 2] 예상 대진표 - Python
-
 
 ## 위클리 챌린지
 * [Level 1] 1주차 - Python
