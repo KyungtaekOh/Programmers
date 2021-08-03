@@ -20,32 +20,33 @@
 * [Level 3] 2018 공채 : [1차] 셔틀버스 - Python
 #### 2019
 * [Level 2] 2019 공채 : 오픈채팅방 - Python
-* [Level 2] 2019 인턴십 : 튜플 - Python
+
 * [Level 2] 2019 공채 : 후보키 - Python
-* [Level 3] 2019 인턴십 : 불량 사용자 - Python
 * [Level 3] 2019 공채 : 길 찾기 게임 - Python
 * [Level 3] 2019 공채 : 매칭 점수 - Python
-* [Level 3] 2019 인턴십 : 징검다리 건너기 - Python
 * [Level 4] 2019 공채 : 무지의 먹방 라이브 - Python
+* [Level 2] 2019 인턴십 : 튜플 - Python
+* [Level 3] 2019 인턴십 : 불량 사용자 - Python
+* [Level 3] 2019 인턴십 : 징검다리 건너기 - Python
 * [Level 4] 2019 인턴십 : 호텔 방 배정 - Python
 #### 2020
 * [Level 2] 2020 공채 : 문자열 압축 - Python
 * [Level 2] 2020 공채 : 괄호 변환 - Python
-* [Level 2] 2020 인턴십 : 수식 최대화 - Python
 * [Level 3] 2020 공채 : 자물쇠와 열쇠 - Python
 * [Level 3] 2020 공채 : 기둥과 보 설치 - Python
 * [Level 3] 2020 공채 : 외벽 점검 - Python
+* [Level 4] 2020 공채 : 가사 검색 - Python
 * [Level 3] 2020 공채 : 블록 이동하기 - Python
+* [Level 2] 2020 인턴십 : 수식 최대화 - Python
 * [Level 3] 2020 인턴십 : 경주로 건설 - Python
 * [Level 3] 2020 인턴십 : 보석쇼핑 - Python
-* [Level 4] 2020 공채 : 가사 검색 - Python
 #### 2021
 * [Level 2] 2021 공채 : 메뉴 리뉴얼 - Python
-* [Level 1] 2021 인턴십 : 숫자 문자열과 영단어 - Python
 * [Level 2] 2021 공채 : 순위 검색 - Python
-* [Level 2] 2021 인턴십 : 거리두기 확인하기 - Python
 * [Level 3] 2021 공채 : 합승 택시 요금 - Python
 * [Level 3] 2021 공채 : 광고 삽입 - Python
+* [Level 1] 2021 인턴십 : 숫자 문자열과 영단어 - Python
+* [Level 2] 2021 인턴십 : 거리두기 확인하기 - Python
 * [Level 3] 2021 인턴십 : 표 편집 - Python
 
 ## Summer/Winter Coding
