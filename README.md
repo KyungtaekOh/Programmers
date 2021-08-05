@@ -44,6 +44,7 @@
 * [Level 2] 2021 공채 : 순위 검색 - Python
 * [Level 3] 2021 공채 : 합승 택시 요금 - Python
 * [Level 3] 2021 공채 : 광고 삽입 - Python
+* [Level 3] 2021 공채 : 카드 짝 맞추기 - Python
 * [Level 1] 2021 인턴십 : 숫자 문자열과 영단어 - Python
 * [Level 2] 2021 인턴십 : 거리두기 확인하기 - Python
 * [Level 3] 2021 인턴십 : 표 편집 - Python
