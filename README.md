@@ -69,6 +69,7 @@
 * [Level 2] 시즌 2 : 괄호 회전하기 - Python
 * [Level 2] 시즌 2 : 2개 이하로 다른 비트 - Python
 * [Level 3] 시즌 2 : 모두 0으로 만들기 - Python
+* [Level 3] 시즌 2 : 110 옮기기 - Python
 
 ## Dev-Matching
 * [Level 2] 2021 : 행렬 테두리 회전하기 - Python
