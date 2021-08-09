@@ -85,3 +85,4 @@
 
 ## 위클리 챌린지
 * [Level 1] 1주차 - Python
+* [Level 1] 2주차 - Python
