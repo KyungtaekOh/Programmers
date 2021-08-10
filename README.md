@@ -7,6 +7,7 @@
 * [Level 3] DP 03 : 등굣길 - Python
 * [Level 3] Graph 01 : 가장 먼 노드 - Python
 * [Level 3] Grpah 02 : 순위 - Python
+* [Level 2] Sort 02 : 가장 큰 수 - Python
 
 ## KAKAO Coding Test
 #### 2018
