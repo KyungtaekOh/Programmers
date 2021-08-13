@@ -9,6 +9,7 @@
 * [Level 3] Grpah 02 : 순위 - Python
 * [Level 2] Greedy 02 : 조이스틱 - Python
 * [Level 2] Sort 02 : 가장 큰 수 - Python
+* [Level 2] 스택/큐 02 : 프린터 - Python
 * [Level 2] 완전탐색 02 : 소수 찾기 - Python
 
 ## KAKAO Coding Test
