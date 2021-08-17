@@ -88,5 +88,6 @@
 * [Level 2] 예상 대진표 - Python
 
 ## 위클리 챌린지
-* [Level 1] 1주차 - Python
-* [Level 1] 2주차 - Python
+* [Level 1] 1주차 : 부족한 금액 계산하기 - Python
+* [Level 1] 2주차 : 상호 평가 - Python
+* [Level 3] 3주차 : 퍼즐 조각 채우기 - Python
