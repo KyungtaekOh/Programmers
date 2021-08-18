@@ -11,6 +11,7 @@
 * [Level 2] Sort 02 : 가장 큰 수 - Python
 * [Level 2] 스택/큐 02 : 프린터 - Python
 * [Level 2] 완전탐색 02 : 소수 찾기 - Python
+* [Level 2] 완전탐색 03 : 카펫 - Python
 
 ## KAKAO Coding Test
 #### 2018
