@@ -8,6 +8,9 @@
 * [Level 3] Graph 01 : 가장 먼 노드 - Python
 * [Level 3] Grpah 02 : 순위 - Python
 * [Level 2] Greedy 02 : 조이스틱 - Python
+* [Level 1] Hash 01 : 완주하지 못한 선수 - Python
+* [Level 2] Hash 02 : 전화번호 목록 - Python
+* [Level 2] Hash 03 : 위장 - Python
 * [Level 2] Sort 02 : 가장 큰 수 - Python
 * [Level 2] 스택/큐 02 : 프린터 - Python
 * [Level 2] 완전탐색 02 : 소수 찾기 - Python
