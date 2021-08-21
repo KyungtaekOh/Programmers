@@ -14,6 +14,7 @@
 * [Level 3] Hash 04 : 베스트앨범 - Python
 * [Level 2] Sort 02 : 가장 큰 수 - Python
 * [Level 2] 스택/큐 02 : 프린터 - Python
+* [Level 2] 스택/큐 03 : 다리를 지나는 트럭 - Python
 * [Level 2] 완전탐색 02 : 소수 찾기 - Python
 * [Level 2] 완전탐색 03 : 카펫 - Python
 
