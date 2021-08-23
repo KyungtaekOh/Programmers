@@ -50,7 +50,7 @@
 * [Level 3] 2020 인턴십 : 경주로 건설 - Python
 * [Level 3] 2020 인턴십 : 보석쇼핑 - Python
 #### 2021
-* [Level 1] 2021 공채 : 신규 아이디 추천 - Python
+* [Level 1] 2021 공채 : 신규 아이디 추천 - Python, Kotlin
 * [Level 2] 2021 공채 : 메뉴 리뉴얼 - Python
 * [Level 2] 2021 공채 : 순위 검색 - Python
 * [Level 3] 2021 공채 : 합승 택시 요금 - Python
