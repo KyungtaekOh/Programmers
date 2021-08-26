@@ -46,6 +46,7 @@
 * [Level 3] 2020 공채 : 외벽 점검 - Python
 * [Level 4] 2020 공채 : 가사 검색 - Python
 * [Level 3] 2020 공채 : 블록 이동하기 - Python
+* [Level 1] 2020 인턴십 : 키패드 누르기 - Python
 * [Level 2] 2020 인턴십 : 수식 최대화 - Python
 * [Level 3] 2020 인턴십 : 경주로 건설 - Python
 * [Level 3] 2020 인턴십 : 보석쇼핑 - Python
