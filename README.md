@@ -83,6 +83,7 @@
 * [Level 2] 시즌 2 : 2개 이하로 다른 비트 - Python
 * [Level 3] 시즌 2 : 모두 0으로 만들기 - Python
 * [Level 3] 시즌 2 : 110 옮기기 - Python
+* [Level 2] 시즌 3 : 빛의 경로 사이클 - Python
 
 ## Dev-Matching
 * [Level 1] 2021 : 로또의 최고 순위와 최저 순위 - Python
