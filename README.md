@@ -105,3 +105,4 @@
 * [Level 1] 4주차 : 직업군 추천하기 - Python, Kotlin
 * [Level 2] 5주차 : 모음사전 - Python
 * [Level 1] 6주차 : 복서 정렬하기 - Python
+* [Level 2] 9주차 : 전력망을 둘로 나누기 - Python
