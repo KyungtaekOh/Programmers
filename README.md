@@ -107,3 +107,4 @@
 * [Level 1] 6주차 : 복서 정렬하기 - Python
 * [Level 2] 9주차 : 전력망을 둘로 나누기 - Python
 * [Level 2] 10주차 : 교점에 별 만들기 - Python
+* [Level 2] 12주차 : 피로도 - Python
