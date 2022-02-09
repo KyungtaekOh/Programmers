@@ -18,6 +18,7 @@
 * [Level 2] 스택/큐 03 : 다리를 지나는 트럭 - Python
 * [Level 2] 완전탐색 02 : 소수 찾기 - Python
 * [Level 2] 완전탐색 03 : 카펫 - Python
+* [Level 3] 이분탐색 : 입국심사 - Python
 
 ## KAKAO Coding Test
 #### 2018
