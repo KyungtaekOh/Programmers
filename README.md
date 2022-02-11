@@ -63,6 +63,11 @@
 * [Level 2] 2021 인턴십 : 거리두기 확인하기 - Python
 * [Level 3] 2021 인턴십 : 표 편집 - Python
 
+#### 2022
+* [Level 2] 2022 공채 : 양궁대회 - Python
+* [Level 3] 2022 공채 : 양과 늑대 - Python
+* [Level 3] 2022 공채 : 파괴되지 않은 건물 - Python
+
 ## Summer/Winter Coding
 * [Level 2] ~2018 : 배달 - Python
 * [Level 2] ~2018 : 영어 끝말잇기 - Python
